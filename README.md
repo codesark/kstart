@@ -22,7 +22,7 @@ cd kubernetes_setup
 
 > Important: First of all change the email to your email in `003_letsencrypt-issuer/issuer.yaml` at `line 9`.
 
-Execute the install scripts in each script serially starting from 001, 002, ... etc.
+Execute the install scripts in each script serially starting from 000, 001, ... etc.
 
 ```bash
 bash ./000_helm/install.sh
